@@ -1,0 +1,163 @@
+/* Importação da fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Home */
+
+.home__container-container-grid, .about__container-container-grid {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: hsl(0, 0%, 87%);
+    padding: 0.01rem;
+}
+
+.home__name {
+    font-size: larger;
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.home__perfil {
+    position: relative;
+    justify-self: center;
+}
+
+.home__image {
+    width: 200px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+.home__img {
+    position: relative;
+    z-index: 10;
+}
+
+.home__social {
+    height: max-content;
+    position: absolute;
+    left: 3rem;
+    top: 12.5rem;
+    bottom: 0;
+    margin: auto 0;
+    display: grid;
+    row-gap: 1rem;
+}
+
+.home__social-link {
+    background-color: rgba(52, 48, 48, 0.562);
+    color: white;
+    font-size: 1.25rem;
+    padding: 6px;
+    display: grid;
+    place-items: center;
+    transition: background-color .3s;
+}
+
+.home__social-link:hover {
+    border: 2px solid rgba(255, 255, 255, 0..637);
+    transform: translate(-5px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform 0.3s;
+}
+
+.home__info {
+    margin-top: 20rem;
+}
+
+.home__description {
+    text-align: justify;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.home__description strong {
+    font-weight: 900;
+}
+/* CSS reutilizável */
+.container {
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+/* About */
+
+.about__container-container-grid {
+    background-color: hsl(0, 0%, 87%);
+    transition: background-color .4s;
+    margin-top: 200px;
+}
+
+.about__perfil {
+    position: relative;
+    justify-self: center;
+    margin-block: 2.5rem 4.5rem;
+}
+
+.about__image {
+    width: 220px;
+    margin-left: 180px;
+}
+
+.about__img {
+    position: relative;
+}
+
+.about__info {
+    padding-left: 1.25rem;
+    padding-top: 25px;
+}
+
+.about__description {
+    position: relative;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.about__list {
+    list-style-type: disc;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.section__title-1 {
+    position: relative;
+    font-size: 30px;
+    width: max-content;
+    margin: .75rem auto 2rem;
+}
+
+/* Botões */
+
+.button {
+    background-color: rgba(52, 48, 48, 0.562);
+    color: white;
+    padding: 1.1rem 1rem;
+    font-weight: 500;
+    transition: background-color .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+}
+
+.button:hover {
+    background-color: rgba(52, 48, 48, 0.768);
+}
