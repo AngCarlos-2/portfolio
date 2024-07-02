@@ -1,0 +1,15 @@
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer__container-container-grid {
+    padding-block: 3rem 2rem;
+    row-gap: 2.5rem;
+}
+
+.footer__copy {
+    color: whitesmoke;
+    font-size: small;
+    text-align: center;
+}
