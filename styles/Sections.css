@@ -20,23 +20,23 @@ a {
     font-size: larger;
     text-align: center;
     margin-top: 80px;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
 .home__perfil {
     position: relative;
-    justify-self: center;
 }
 
 .home__image {
     width: 200px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 2.31rem;
 }
 
 .home__img {
     position: relative;
     z-index: 10;
+    padding: 20px;
 }
 
 .home__social {
@@ -67,14 +67,22 @@ a {
     transition: transform 0.3s;
 }
 
-.home__info {
-    margin-top: 20rem;
+@media (max-width: 600px) {
+    .home__info {
+        margin-top: 20rem;
+    }
+
+    .home__image {
+        margin-right: 50px;
+    }
 }
+
 
 .home__description {
     text-align: justify;
     color: black;
     margin-bottom: 1.5rem;
+    margin-right: 20px;
 }
 
 .home__description strong {
@@ -122,6 +130,7 @@ a {
 .about__description {
     position: relative;
     color: black;
+    margin-right: 20px;
     margin-bottom: 1.5rem;
 }
 
@@ -129,6 +138,7 @@ a {
     list-style-type: disc;
     color: black;
     margin-bottom: 3rem;
+    margin-right: 20px;
 }
 
 .about__buttons {
@@ -223,6 +233,7 @@ a {
 
 .project__description {
     font-family: 'Bai Jamjuree', sans-serif;
+    text-align: justify;
 }
 
 .project__button {
