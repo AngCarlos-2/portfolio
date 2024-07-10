@@ -67,13 +67,17 @@ a {
     transition: transform 0.3s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .home__info {
         margin-top: 20rem;
     }
 
     .home__image {
         margin-right: 50px;
+    }
+
+    .about__image {
+        margin-left: 180px;
     }
 }
 
@@ -88,6 +92,7 @@ a {
 .home__description strong {
     font-weight: 900;
 }
+
 /* CSS reutilizável */
 .container {
     max-width: 1120px;
@@ -107,19 +112,15 @@ a {
     margin-top: 150px;
 }
 
-.about__perfil {
+/*.about__perfil {
     position: relative;
     justify-self: center;
     margin-block: 2.5rem 4.5rem;
-}
+}*/
 
 .about__image {
     width: 220px;
-    margin-left: 180px;
-}
-
-.about__img {
-    position: relative;
+    /*margin-left: 180px;*/
 }
 
 .about__info {

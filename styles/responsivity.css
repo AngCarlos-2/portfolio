@@ -234,7 +234,20 @@ body {
         text-align: left;
     }
 
-    
+    .section__title-1-div {
+        margin-bottom: 500px;
+        margin-left: 125px;
+    }
+
+    .about__image {
+        margin-left: 62.5px;
+        margin-bottom: 0;
+    }
+
+    .about__info {
+        margin-bottom: 390px;
+        margin-right: 20px;
+    }
 
     .projects__container-container-grid {
         grid-template-columns: repeat(2, 1fr);
