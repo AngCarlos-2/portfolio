@@ -76,8 +76,16 @@ a {
         margin-right: 50px;
     }
 
+    .about__container-container-grid {
+        margin-top: 150px;
+    }
+
     .about__image {
         margin-left: 180px;
+    }
+
+    .projects-section {
+        margin-top: 300px;
     }
 }
 
@@ -109,7 +117,6 @@ a {
 .about__container-container-grid {
     background-color: hsl(0, 0%, 87%);
     transition: background-color .4s;
-    margin-top: 150px;
 }
 
 /*.about__perfil {
