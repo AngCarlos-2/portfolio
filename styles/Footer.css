@@ -1,6 +1,7 @@
 .footer {
     background-color: black;
     color: white;
+    margin-top: 100px;
 }
 
 .footer__container-container-grid {

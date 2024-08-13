@@ -212,27 +212,6 @@ a {
     margin-bottom: 1.25rem;
 }
 
-.project__subtitle {
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    display: inline-block;
-    font-size: small;
-    font-weight: 500;
-    color: black;
-    margin-bottom: .75rem;
-    padding-left: 1.75rem;
-}
-
-.project__subtitle::after {
-    content: '';
-    width: 20px;
-    height: 1px;
-    background-color: black;
-    position: absolute;
-    top: 50%;
-    left: 0;
-}
-
 .project__title {
     font-size: larger;
     font-family: 'Bai Jamjuree', sans-serif;
