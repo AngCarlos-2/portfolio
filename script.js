@@ -28,3 +28,15 @@ const linkAction = () =>{
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+$("#button").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#about").offset().top
+    }, 10);
+  });
+
+  $("#button").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#projects").offset().top
+    }, 10);
+  });
