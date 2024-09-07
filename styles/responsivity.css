@@ -245,13 +245,16 @@ body {
         margin-bottom: 50px;
     }
 
+    #aboutmetitle {
+        margin-top: 300px;
+    }
+
     .about__image {
         margin-left: 62.5px;
     }
 
     .about__info {
         position: absolute;
-        margin-bottom: 390px;
         margin-right: 20px;
         margin-left: 500px;
     }
